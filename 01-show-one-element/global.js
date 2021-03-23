@@ -12,10 +12,10 @@ window.addEventListener("load", function(){
  
      // 4. Modify that DOM element's style to change it's 'display'
      //    from a hidden value to a shown value.
-     more_text.style.display = "inline";
+     more_text.style.display = "inline"
  
      // 5. Also modify the DOM to hide the "More info..." link.
-     more_link.style.display = "none";
+     more_link.style.display = "none"
    });
    
  });
