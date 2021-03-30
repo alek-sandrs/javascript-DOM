@@ -1,9 +1,9 @@
 // Your JavaScript goes here.
 window.addEventListener("load", function(){
 
-    var area_code = dokuments.getElementById('first');
-    var middle_numbers = dokuments.getElementById('second');
-    var end_numbers = dokuments.getElementById('third');
+    var area_code = document.getElementById('first');
+    var middle_numbers = document.getElementById('second');
+    var end_numbers = document.getElementById('third');
   
     area_code.addEventListener("keyup", function() {
       typed_characters = area_code.value.length;

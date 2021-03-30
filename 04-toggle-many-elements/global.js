@@ -1,11 +1,11 @@
 // Your JavaScript goes here.
 window.addEventListener("load", function(){
 
-    var Poga = dokuments.getElementById('button');
+    var Button = document.getElementById('button');
   
-    Poga.addEventListener("click", function() {
+    Button.addEventListener("click", function() {
   
-      var divs_to_toggle = dokuments.getElementsByClassName('toggle_me');
+      var divs_to_toggle = document.getElementsByClassName('toggle_me');
   
       for (var i = 0; i < divs_to_toggle.length; i++) {
         if (divs_to_toggle[i].style.display === "none") {
